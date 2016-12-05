@@ -26,13 +26,6 @@ def test_import_matplotlib():
     plt.legend
     plt.imshow
 
-
-def test_read_html():
-    import pandas
-    pandas.read_html(join(HERE, "data",
-                     "sea_levels", "Obtaining Tide Gauge Data.html"))
-
-
 def test_scrape_web():
     import pandas as pd
     pd.read_html("http://en.wikipedia.org/wiki/World_population")
